@@ -1,7 +1,7 @@
 package com.songyi.devenv.domain.provisioning.configuration;
 
-import com.songyi.devenv.domain.provisioning.enums.CloudProvider;
-import com.songyi.devenv.domain.provisioning.enums.CloudResourceType;
+import com.songyi.devenv.infrastructure.enums.CloudProvider;
+import com.songyi.devenv.infrastructure.enums.CloudResourceType;
 
 import java.util.List;
 

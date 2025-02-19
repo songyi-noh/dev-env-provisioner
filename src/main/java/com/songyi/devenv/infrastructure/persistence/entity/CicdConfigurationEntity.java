@@ -1,9 +1,7 @@
 package com.songyi.devenv.infrastructure.persistence.entity;
 
-import com.songyi.devenv.domain.provisioning.enums.CicdProvider;
+import com.songyi.devenv.infrastructure.enums.CicdProvider;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
-import lombok.Cleanup;
 import lombok.Getter;
 
 import java.util.ArrayList;

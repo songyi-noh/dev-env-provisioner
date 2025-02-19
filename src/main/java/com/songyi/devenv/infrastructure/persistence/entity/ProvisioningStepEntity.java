@@ -14,8 +14,11 @@ public class ProvisioningStepEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "provisioning_id", nullable = false)
+    private ProvisioningEntity provisioning;
     @Enumerated(EnumType.STRING)
-    @NotNull
+    @Column(name = "step_type", nullable = false)
     private StepType type;
     @Enumerated(EnumType.STRING)
     @NotNull

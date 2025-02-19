@@ -1,8 +1,7 @@
 package com.songyi.devenv.infrastructure.persistence.entity;
 
-import com.songyi.devenv.domain.provisioning.enums.CicdProvider;
-import com.songyi.devenv.domain.provisioning.enums.CloudProvider;
-import com.songyi.devenv.domain.provisioning.enums.CloudResourceType;
+import com.songyi.devenv.infrastructure.enums.CloudProvider;
+import com.songyi.devenv.infrastructure.enums.CloudResourceType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;

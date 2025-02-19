@@ -1,6 +1,6 @@
 package com.songyi.devenv.domain.provisioning.configuration;
 
-import com.songyi.devenv.domain.provisioning.enums.CicdProvider;
+import com.songyi.devenv.infrastructure.enums.CicdProvider;
 
 import java.util.List;
 
